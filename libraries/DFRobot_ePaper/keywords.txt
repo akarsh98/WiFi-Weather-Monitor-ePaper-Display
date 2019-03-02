@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring DFRobot_ePaper
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_IL0376F_I2C	KEYWORD1
+DFRobot_IL0376F_SPI	KEYWORD1
+DFRobot_IL3895_I2C	KEYWORD1
+DFRobot_IL3895_SPI	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################	
+
+begin	KEYWORD2
+disString	KEYWORD2
+flush	KEYWORD2
+epaper	KEYWORD2
+drawPicture	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LUCENCY	LITERAL1
+WHITE	LITERAL1
+RED	LITERAL1
+BLACK	LITERAL1
+
+PART	LITERAL1
+FULL	LITERAL1
