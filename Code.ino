@@ -69,11 +69,11 @@ void loop(){
       epaper.fillScreen(WHITE);
       epaper.disString(5,5,2,"WEATHER MONITOR",BLACK);
       epaper.disString(5,45,2,"T:",BLACK);
-      epaper.disString(28,45,2,tempar,BLACK);
-      epaper.disString(110,45,2,"c",BLACK);
-      epaper.disString(150,45,2,"H:",BLACK);
-      epaper.disString(180,45,2,humid,BLACK);
-      epaper.disString(30,85,2,teststr,BLACK);
+      epaper.disString(32,45,2,tempar,BLACK);
+      epaper.disString(114,45,2,"c",BLACK);
+      epaper.disString(145,45,2,"H:",BLACK);
+      epaper.disString(175,45,2,humid,BLACK);
+      epaper.disString(20,85,2,teststr,BLACK);
       epaper.flush(PART);
     }
     http.end();   //Close connection
