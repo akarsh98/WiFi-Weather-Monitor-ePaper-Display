@@ -1,27 +1,15 @@
 # WiFi-Weather-Monitor-ePaper-Display
 
-![alt text](https://github.com/akarsh98/LoRa-gateway-single-channel-PCB/blob/master/images/PCB_FRONT.JPG?raw=true)
-###                                              FRONT SIDE IMAGE OF THE PCB
+Today we are going to make a project which is a weather monitor which displays all the weather related information on an E-Paper display from DFRobot.
 
-This PCB is a sinle channel gateway of LoRa, You can use this PCB as a node as well.
-The Pcb uses:
-1) ESP8266 as the microcontroller
-2) Ra-02 LoRa module.
-3) OLED SSD13086 0.96' display
-4) Other basic components.
+![alt text](https://github.com/akarsh98/WiFi-Weather-Monitor-ePaper-Display/blob/master/SCREENSHOTS/3.JPG?raw=true)
 
-There is also an easy to program header under the OLED display to flash the device by connecting FTDI chip.
+The Display is connected to an esp8266, you can use an esp32 as well with this display. The esp8266 is connected to the internet using wifi whose details can be changed through the code which I have provided on github. So lets get started!
+
+I have also made a video about building this project in detail, I recommend watching that for better insight and detail.
 
 You must check out [JLCPCB](https://jlcpcb.com/m) for ordering PCBs online for cheap!
 
 You get 10 good quality PCBs manufactured and shipped to your doorstep for 2$ and some shipping. You will also get a discount on shipping on your first order. To design your own PCB head over to [easyEDA](https://easyeda.com/), once that is done upload your Gerber files onto [JLCPCB](https://jlcpcb.com/m) to get them manufactured with good quality and quick turnaround time.
 
 ![alt text](https://github.com/akarsh98/LoRa-gateway-single-channel-PCB/blob/master/images/JLCPCB_AD.jpg?raw=true)
-
-![alt text](https://github.com/akarsh98/LoRa-gateway-single-channel-PCB/blob/master/images/PCB_BACK.JPG?raw=true)
-###                                              BACK SIDE IMAGE OF THE PCB
-
-### This is the schematic for the project:
-![alt text](https://github.com/akarsh98/LoRa-gateway-single-channel-PCB/blob/master/images/Schematic.JPG?raw=true)
-
-
